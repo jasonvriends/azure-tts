@@ -1,4 +1,9 @@
+# Ignore audio files inside output directory
+output/*
+
+# Ignore VS Code directory
 .vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

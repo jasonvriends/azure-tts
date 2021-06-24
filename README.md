@@ -27,7 +27,12 @@ A simple Python script to leverage Azure Cognitive Services for [Text to Speech]
 ``` python3 -m venv .venv ```
 
 - Source the Python virtual environment<br/>
-``` source .venv/bin/activate ```
+    - VS Code
+        - Select CTRL+SHIFT+P
+        - Select Python Interpreter
+        - Select .venv/bin/python3
+    - Manually<br/>
+    ``` source .venv/bin/activate ```
 
 - Install the required Python packages<br/>
 ``` pip install -r requirements.txt ```
