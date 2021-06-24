@@ -20,7 +20,7 @@ A simple Python script to leverage Azure Cognitive Services for [Text to Speech]
 
 # Configuration
 
-- Clone this Github repository
+- Clone this Github repository<br/>
 ``` git clone https://github.com/jasonvriends/azure-tts.git ```<br/>
 
 - Create a Python virtual environment<br/>
