@@ -12,8 +12,13 @@ class Settings(BaseSettings):
 
 settings = Settings()
 
-# Set the output Output filename
+# Set output filename
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__),'output',datetime.datetime.today().strftime("%Y-%m-%d")+'-announcements.mp3')
+OUTPUT_FOLDER = os.path.dirname(__file__),'output'
+
+# Create output folder is not exist
+if not os.path.exists(OUTPUT_FOLDER):
+    os.makedirs(OUTPUT_FOLDER)
 
 # Configure Azure Cognitive Services
 speech_config = SpeechConfig(subscription=settings.KEY, region=settings.REGION)
